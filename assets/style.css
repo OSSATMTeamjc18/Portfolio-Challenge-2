@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: darkblue;
+    font-size: 72px;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #606060;
+}
+
+header {
+    padding: 35px 10px;
+    background-color: #00239c;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    z-index: 9999;
+}
+
+header h1 {
+    background-color: #606060;
+    color: #d6ed17;
+    margin: 0;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+header a {
+    color: #d6ed17;
+    text-decoration: none;
+    border-top: 3px solid #d6ed17;
+}
+
+header nav{
+    margin: 5px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+header nav ul li a {
+    padding: 50px 7px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+footer {
+    color: #d6ed17;
+    width: 100%;
+    padding: 35px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+section {
+    padding: 60px;
+}
+
+.subtitle {
+    background-image: url("../assets/Images/milky-way-2695569__340.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.subtitle-mockup {
+    color: #d6ed17;
+    background-color: #606060;
+    padding: 3px;
+    position: relative;
+    bottom: 0;
+}
+
+footer h2 {
+    color: #d6ed17;
+    font-size: 35px;
+    margin: 0;
+}
+
+footer div ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+footer div ul li {
+    padding: 12px 7px;
+}
+
+footer a {
+    color: #d6ed17;
+}
+
+
+
+
+
+@media screen and (max-width: 980px){
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+}
