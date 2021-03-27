@@ -56,7 +56,7 @@ header nav ul li a {
 
 footer {
     color: #d6ed17;
-    width: 100%;
+    width: 70%;
     padding: 35px 35px;
     display: flex;
     justify-content: space-between;
@@ -104,17 +104,21 @@ footer a {
     color: #d6ed17;
 }
 
+.aboutme {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
 .content {
     width: 100%;
-    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: flex-start;
     color: #d6ed17;
 }
-
-
 
 
 @media screen and (max-width: 980px){
