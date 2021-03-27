@@ -62,9 +62,8 @@ footer {
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
 section {
-    padding: 60px;
+    padding: 40px;
 }
 
 .subtitle {
@@ -105,6 +104,15 @@ footer a {
     color: #d6ed17;
 }
 
+.content {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    color: #d6ed17;
+}
 
 
 
