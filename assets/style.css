@@ -103,13 +103,7 @@ footer div ul li {
 footer a {
     color: #d6ed17;
 }
-.aboutme {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-}
+
 .content {
     width: 100%;
     display: flex;
@@ -121,18 +115,29 @@ footer a {
 .p1{
     text-align: right;
 }
-.column {
-    float: left;
-    width: 50%;
-    padding: 50px;
-  }
+
+
 .v1{
     border-left: 4px solid #d6ed17;
     height: 50px;
     position: absolute;
     left: 12%;
-
 }
+ .picrow {
+     display: flex;
+     flex-wrap: wrap;
+     padding: 0 4px;
+ }
+ .columnpic {
+     flex: 60%;
+     padding: 0 700px;
+ }
+ .columnpic img {
+     margin-top: 8px;
+     vertical-align: middle;
+     width: 200px;
+     height: 150px;
+    }
 
 @media screen and (max-width: 980px){
     header {
