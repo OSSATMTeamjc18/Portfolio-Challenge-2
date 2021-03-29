@@ -138,6 +138,16 @@ footer a {
      width: 200px;
      height: 150px;
     }
+    .container {
+        position: relative;
+        text-align: center;
+        color: whitesmoke;
+    }
+    .bottom-left {
+        position: absolute;
+        bottom: 8px;
+        left: 15px;
+    }
 
 @media screen and (max-width: 980px){
     header {
